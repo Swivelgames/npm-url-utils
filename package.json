@@ -4,11 +4,11 @@
     "description": "An implementation of Location as described by MDN. Useful for emulating window.location on the server side.",
     "main": "urlutils.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Success! \(currently no tests exist\)\" && exit 0"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/Swivelgames/npm-url-utils.git"
+        "url": "git://github.com/Swivelgames/URLUtils.git"
     },
     "keywords": [
         "window",
@@ -21,8 +21,8 @@
         "utilities"
     ],
     "author": "Joseph Dalrymple <joseph.dalrymple@bluelogicteam.com> (http://swivel.in/)",
-    "license": "Unlicense",
+    "license": "GPLv2",
     "bugs": {
-        "url": "https://github.com/Swivelgames/npm-url-utils/issues"
+        "url": "https://github.com/brentertz/scapegoat/issues"
     }
 }
