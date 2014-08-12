@@ -8,14 +8,15 @@ Node.js - An implementation of URLUtils as described by MDN. Useful for emulatin
 **Example** (using express.js)
 ```javascript
 app.get('*', function(req, res){
-  var window = {
-    location: new require('npm-url-utils')(
-      req.protocol + '://' + req.get('host') + req.originalUrl
-    )
-  };
+/*>*/	var URLUtils = require('npm-url-utils');
+		var window = {
+/*>*/		location: new URLUtils(
+/*>*/			req.protocol + '://' + req.get('host') + req.originalUrl
+/*>*/		)
+		};
 
-  console.log( window.location.href ); // "http://mywebsite.com/index.jsx?foo=bar#myhash"
-  console.log( window.location.protocol ); // "http:"
-  console.log( window.location.hash ); // "#myhash"
+/*>*/	console.log( window.location.href ); // "http://mywebsite.com/index.jsx?foo=bar#myhash"
+/*>*/	console.log( window.location.protocol ); // "http:"
+/*>*/	console.log( window.location.hash ); // "#myhash"
 });
 ```
