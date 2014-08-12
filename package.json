@@ -1,5 +1,5 @@
 {
-    "name": "URLUtils",
+    "name": "url-utils",
     "version": "0.1.0",
     "description": "An implementation of Location as described by MDN. Useful for emulating window.location on the server side.",
     "main": "index.js",
