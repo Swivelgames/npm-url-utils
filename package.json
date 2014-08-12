@@ -2,7 +2,7 @@
     "name": "URLUtils",
     "version": "0.1.0",
     "description": "An implementation of Location as described by MDN. Useful for emulating window.location on the server side.",
-    "main": "urlutils.js",
+    "main": "./urlutils.js",
     "scripts": {
         "test": "echo \"Success! (currently no tests exist)\" && exit 0"
     },
