@@ -36,11 +36,11 @@ var URLUtils = (function(){
 
             this.protocol = matches[1] + ":";
 
-            this.hostname = [
-                matches[4] || "",
-                matches[5] || "",
-                matches[6] || ""
-            ].join('.');
+            var hostNameArr = [];
+            if(matches[4]) hostNameArr.push(matches[4]);
+            if(matches[5]) hostNameArr.push(matches[5]);
+            if(matches[6]) hostNameArr.push(matches[6]);
+            this.hostname = hostNameArr.join('.');
 
             this.port = matches[7] || "";
 
