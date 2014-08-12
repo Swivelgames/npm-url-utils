@@ -1,6 +1,6 @@
 {
     "name": "URLUtils",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "An implementation of Location as described by MDN. Useful for emulating window.location on the server side.",
     "main": "urlutils.js",
     "scripts": {
@@ -21,7 +21,12 @@
         "utilities"
     ],
     "author": "Joseph Dalrymple <joseph.dalrymple@bluelogicteam.com> (http://swivel.in/)",
-    "license": "GPLv2",
+    "licenses": [
+        {
+            "type": "Unlicense",
+            "url": "http://unlicense.org/"
+        }
+    ],
     "bugs": {
         "url": "https://github.com/brentertz/scapegoat/issues"
     }
