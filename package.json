@@ -21,7 +21,7 @@
         "utilities"
     ],
     "author": "Joseph Dalrymple <joseph.dalrymple@bluelogicteam.com> (http://swivel.in/)",
-    "license": "BSD-2-Clause",
+    "license": "Unlicense",
     "bugs": {
         "url": "https://github.com/brentertz/scapegoat/issues"
     }
