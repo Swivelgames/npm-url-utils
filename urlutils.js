@@ -56,12 +56,7 @@ var URLUtils = (function(){
             this.username = matches[2];
             this.password = matches[3];
 
-            this.pathname = matches[8] + (
-                matches[9] ?
-                    matches[9]
-                :
-                    ""
-            );
+            this.pathname = matches[8] + (matches[9] || "");
 
             this.search = (
                 matches[10] ?
