@@ -1,0 +1,28 @@
+{
+    "name": "URLUtils",
+    "version": "1.0.0",
+    "description": "An implementation of Location as described by MDN. Useful for emulating window.location on the server side.",
+    "main": "urlutils.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Swivelgames/URLUtils.git"
+    },
+    "keywords": [
+        "window",
+        "location",
+        "url",
+        "parse",
+        "window.location",
+        "polyfill",
+        "emulate",
+        "utilities"
+    ],
+    "author": "Joseph Dalrymple <joseph.dalrymple@bluelogicteam.com> (http://swivel.in/)",
+    "license": "BSD-2-Clause",
+    "bugs": {
+        "url": "https://github.com/brentertz/scapegoat/issues"
+    }
+}
