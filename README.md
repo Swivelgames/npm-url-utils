@@ -6,9 +6,13 @@ Node.js - An implementation of URLUtils as described by MDN. Useful for emulatin
 **See MDN documentation**: https://developer.mozilla.org/en-US/docs/Web/API/URLUtils
 
 **Example** (using express.js)
+```bash
+npm install url-utils
+```
+
 ```javascript
 app.get('*', function(req, res){
-/*>*/	var URLUtils = require('npm-url-utils');
+/*>*/	var URLUtils = require('url-utils');
 		var window = {
 /*>*/		location: new URLUtils(
 /*>*/			req.protocol + '://' + req.get('host') + req.originalUrl
