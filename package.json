@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/Swivelgames/URLUtils.git"
+        "url": "git://github.com/Swivelgames/npm-url-utils.git"
     },
     "keywords": [
         "window",
@@ -23,6 +23,6 @@
     "author": "Joseph Dalrymple <joseph.dalrymple@bluelogicteam.com> (http://swivel.in/)",
     "license": "Unlicense",
     "bugs": {
-        "url": "https://github.com/brentertz/scapegoat/issues"
+        "url": "https://github.com/Swivelgames/npm-url-utils/issues"
     }
 }
