@@ -70,7 +70,12 @@ var URLUtils = (function(){
                     ""
             );
 
-            this.hash = matches[11] || "";
+            this.hash = (
+                matches[11] ?
+                    "#" + matches[11]
+                :
+                    ""
+            );
 
             this.href = matches[0];
         },
