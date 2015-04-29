@@ -1,6 +1,6 @@
 {
     "name": "url-utils",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "An implementation of Location as described by MDN. Useful for emulating window.location on the server side.",
     "main": "index.js",
     "scripts": {
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/Swivelgames/URLUtils.git"
+        "url": "git://github.com/Swivelgames/npm-url-utils.git"
     },
     "keywords": [
         "window",
@@ -28,6 +28,6 @@
         }
     ],
     "bugs": {
-        "url": "https://github.com/brentertz/scapegoat/issues"
+        "url": "https://github.com/Swivelgames/npm-url-utils/issues"
     }
 }
